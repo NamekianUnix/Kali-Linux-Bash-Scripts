@@ -1,0 +1,6 @@
+#!/bin/bash
+#How to find 5Ghz with airodump-ng on the Alfa 802.11ac card
+# "--band a" is for 5GHz
+# Also looking for WPS as well 
+
+airodump-ng -W --band a wlan1
