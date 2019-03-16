@@ -1,0 +1,14 @@
+#!/bin/bash
+#Kills conflicting processes
+#Starts monitor mode on wlan1 interface for the new alfa card the proper way
+#Reference: 
+#https://forums.kali.org/showthread.php?36814-How-to-install-AWUS036ACH-Drivers-and-getting-it-running
+
+airmon-ng check kill
+ip link set wlan1 down
+iwconfig wlan1 mode monitor
+ip link set wlan1 up
+
+# Do not use: "airmon-ng start wlan1" for the Alfa card
+
+
