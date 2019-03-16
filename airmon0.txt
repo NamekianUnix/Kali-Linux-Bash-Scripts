@@ -1,6 +1,0 @@
-#!/bin/bash
-#kills conflicting processes
-#starts monitor mode on wlan0 interface
-
-airmon-ng check kill
-airmon-ng start wlan0
