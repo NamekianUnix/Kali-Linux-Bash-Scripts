@@ -12,7 +12,7 @@
 # You have a solid Internet connection
 
 echo "DOWNLOADING LATEST ATOM"
-wget -P Downloads/ https://atom.io/download/deb
+wget -P /root/Downloads/ https://atom.io/download/deb
 apt update
 cd /root/Downloads/
 echo "unpackaging atom.deb file"
