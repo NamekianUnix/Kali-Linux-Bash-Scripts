@@ -1,15 +1,19 @@
 #!/bin/bash
 # Author: NamekianUnix 
-# Last updated: 1/13/19
-# Kali Linux version: Kali rolling 2019.1
+# Last updated: 3/16/19
+# Purpose: Setup your desktop to use a GPU within Pyrit
 
-# This script will setup your desktop to use a GPU within Pyrit
+# Sources:
+# https://docs.kali.org/general-use/install-nvidia-drivers-on-kali-linux
+# Learned that OpenCL is faster than CUDA, so I had to install "pyrit-opencl" to accompany the instruction in order to get it to work
+
 # Script assumptions/requirements:
 # Desktop computer
 # Nvidia graphics card
 # Fresh install of the latest version of "Kali default" or "Kali all"
-# You've updated your Kali installation very recently "apt update && apt full-upgrade && reboot" 
-# Root permissions
+# You're logged in as root, or a SU terminal
+# You've updated your Kali installation very recently "apt update && apt full-upgrade -y && reboot" 
+# You have a solid internet connection
 
 # Steps taken in the script:
 # 1. Removes pyrit config file
@@ -20,7 +24,6 @@
 # Step 1
 echo "Removing pyrit config file"
 rm ~/.pyrit/config
-echo "pyrit config file removed"
 
 # Step 2
 echo "Creating new pyrit config file with proper GPU settings"
@@ -33,12 +36,10 @@ rpc_server = false
 use_CUDA = false
 use_OpenCL = true
 workunit_size = 75000" >> ~/.pyrit/config
-echo "Proper pyrit config file created"
 
 # Step 3
 echo "Installing openCL library, Nvidia driver, Cuda toolkit, and openCL module for pyrit"
 apt install -y ocl-icd-libopencl1 nvidia-driver nvidia-cuda-toolkit pyrit-opencl
-echo "Finished installing"
 
 # Step 4
 echo "Rebooting"

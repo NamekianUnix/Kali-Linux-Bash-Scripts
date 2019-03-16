@@ -1,13 +1,7 @@
 #!/bin/bash
 # Author: NamekianUnix 
-# Last updated: 6/17/18
-# Kali Linux version: Kali rolling 2018.2
-
-# Updates the sources.list file to the proper configuration for Kali Rolling
-# Steps taken:
-# Removes sources.list at /etc/apt/sources.list
-# Builds the correct sources.list within the same directory
-# PS, this script is instant!
+# Last updated: 3/16/19
+# Purpose: Updates the sources.list file to the proper configuration for Kali Rolling
 
 # https://docs.kali.org/general-use/kali-linux-sources-list-repositories
 
@@ -31,6 +25,5 @@ rm /etc/apt/sources.list
 
 echo "adding correct sources.list"
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free
-# For source package access, uncomment the following line
 deb-src http://http.kali.org/kali kali-rolling main contrib non-free" >> /etc/apt/sources.list
 echo "Done"

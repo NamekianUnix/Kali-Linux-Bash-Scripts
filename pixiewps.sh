@@ -1,5 +1,8 @@
 #!/bin/bash
-# WPS pixie attack
+# Author: NamekianUnix
+# Last updated: 3/16/19
+# Purpose: WPS pixie attack notes
+
 # Monitor mode first
 # wash -i (interface)  to find a target
 # reaver -i {monitor interface} -b {BSSID of router} -c {router channel} -vvv -K 1 -f
