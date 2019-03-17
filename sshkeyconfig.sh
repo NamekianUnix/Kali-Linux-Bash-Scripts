@@ -14,5 +14,5 @@ dpkg-reconfigure openssh-server
 # If they don't match, remove them
 # rm -r /etc/ssh/backup/
 
-echo "If they match something went wrong, but if they're different, it's safe to remove the backup ssh keys with rm -r /etc/ssh/backup/"
 md5sum ssh_host_* && md5sum back/ssh_host_*
+echo "If they match something went wrong, but if they're different, it's safe to remove the backup ssh keys with rm -r /etc/ssh/backup/"
