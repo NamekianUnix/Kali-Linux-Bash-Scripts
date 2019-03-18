@@ -5,6 +5,7 @@
 
 # Sources:
 # https://docs.kali.org/general-use/install-nvidia-drivers-on-kali-linux
+# https://www.overclock.net/forum/131-linux-unix/1256450-post-your-pyrit-benchmarks-here-7.html
 # Learned that OpenCL is faster than CUDA, so I had to install "pyrit-opencl" to accompany the instruction in order to get it to work
 
 # Script assumptions/requirements:
