@@ -27,5 +27,4 @@ bash $ts3runfile
 # Remove the run file for cleanup
 rm $ts3runfile
 
-echo "Teamspeak installed!" 
-echo "Run ts3.sh to start Teamspeak3 client"
+echo "Press (q)(enter)(q)(y) in that order"
