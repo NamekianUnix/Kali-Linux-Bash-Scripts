@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: NamekianUnix 
-# Last updated: 3/16/19
+# Last updated: 3/18/19
 # Purpose: Setup your desktop to use a GPU within Pyrit
 
 # Sources:
