@@ -21,10 +21,10 @@ wget $ts3link
 # Giving execute permission to the run file
 chmod +x $ts3runfile
 
+echo "Press (q)(enter)(q)(y) in that order"
+
 # Run the script to build the Teamspeak folder
 bash $ts3runfile
 
 # Remove the run file for cleanup
 rm $ts3runfile
-
-echo "Press (q)(enter)(q)(y) in that order"
