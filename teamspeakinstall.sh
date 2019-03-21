@@ -16,7 +16,7 @@ ts3link=https://files.teamspeak-services.com/releases/client/3.2.3/TeamSpeak3-Cl
 ts3runfile=TeamSpeak3-Client-linux_amd64-3.2.3.run
 
 # Downloading Teamspeak
-wget $ts3link
+wget -P /root/ $ts3link
 
 # Giving execute permission to the run file
 chmod +x $ts3runfile
