@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: NamekianUnix
-# Last updated: 3/16/19
+# Last updated: 3/21/19
 # Purpose: Fully/Automatically update Kali Linux, remove unneeded packages, clear the APT cache, and shuts down Kali Linux
 
 # This script assumes the following:
