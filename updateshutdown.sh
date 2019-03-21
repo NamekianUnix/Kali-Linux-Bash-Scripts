@@ -15,4 +15,4 @@ apt full-upgrade -y
 apt autoremove -y
 apt autoclean
 apt clean
-Shutdown now
+shutdown now
