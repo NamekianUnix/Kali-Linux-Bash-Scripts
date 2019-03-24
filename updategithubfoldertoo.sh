@@ -16,10 +16,12 @@ apt full-upgrade -y
 apt autoremove -y
 apt autoclean
 apt clean
+mv /root/Kali-Linux-Bash-Scripts/updategithubfoldertoo.sh /root/updategithubfoldertoo.sh
 echo "Out with the old"
 rm -r /root/Kali-Linux-Bash-Scripts/
 echo "In with the new"
 git clone https://github.com/NamekianUnix/Kali-Linux-Bash-Scripts.git
 cd /root/Kali-Linux-Bash-Scripts/
 chmod +x *
+rm /root/updategithubfoldertoo.sh
 echo "Done"
