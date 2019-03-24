@@ -23,5 +23,5 @@ git clone https://github.com/NamekianUnix/Kali-Linux-Bash-Scripts.git
 cd /root/Kali-Linux-Bash-Scripts/
 chmod +x *
 rm /bin/updategithubfoldertoo.sh
-mv /root/Kali-Linux-Bash-Scripts/updategithubfoldertoo.sh /bin/updategithubfoldertoo.sh
+cp /root/Kali-Linux-Bash-Scripts/updategithubfoldertoo.sh /bin/updategithubfoldertoo.sh
 echo "Done"
