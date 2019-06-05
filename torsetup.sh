@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: NamekianUnix
-# Last updated: 3/16/19
+# Last updated: 6/4/19
 # Purpose: Automatically downloads and installs the latest version of Tor. This script will attempt to clean up previous installations of Tor if they are present. This script will also create another script to easily start up Tor once the installation has finished. "tor.sh" will start the Tor browser while within the terminal(regardless of which directory you are in).
 
 # Sources:
