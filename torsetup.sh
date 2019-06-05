@@ -13,19 +13,19 @@
 # You have a solid Internet connection
 # You've manually retrieved the most up to date download link from https://www.torproject.org/download/download-easy.html.en#linux and updated the "tordownload" and "torzip" labels within this script before executing
 
-tordownload="https://www.torproject.org/dist/torbrowser/8.0.6/tor-browser-linux64-8.0.6_en-US.tar.xz"
-torzip="tor-browser-linux64-8.0.6_en-US.tar.xz"
+tordownload="https://www.torproject.org/dist/torbrowser/8.0.6/tor-browser-linux64-8.5.1_en-US.tar.xz"
+torzip="tor-browser-linux64-8.5.1_en-US.tar.xz"
 
 # Removes previous Tor installation within the "root" directory
-echo "Removing previous installation of Tor"
-rm -r /root/tor-browser_en-US
+#echo "Removing previous installation of Tor"
+#rm -r /root/tor-browser_en-US
 
 # Changes directory to your downloads folder where the torzip file should be
 cd /root/Downloads/
 
 # Removes previous downloads of Tor browser
-echo "Removing previous downloads of Tor"
-rm -r tor-browser-linux64-*
+#echo "Removing previous downloads of Tor"
+#rm -r tor-browser-linux64-*
 
 # Downloads latest Tor browser .tar.xz
 wget -P /root/Downloads/ $tordownload
