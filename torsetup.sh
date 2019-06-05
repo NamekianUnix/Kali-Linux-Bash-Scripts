@@ -14,7 +14,7 @@
 # The Kali Linux Time/Clock is accurately set
 # You've manually retrieved the most up to date download link from https://www.torproject.org/download/download-easy.html.en#linux and updated the "tordownload" and "torzip" labels within this script before executing
 
-tordownload="https://www.torproject.org/dist/torbrowser/8.0.6/tor-browser-linux64-8.5.1_en-US.tar.xz"
+tordownload="https://www.torproject.org/dist/torbrowser/8.5.1/tor-browser-linux64-8.5.1_en-US.tar.xz"
 torzip="tor-browser-linux64-8.5.1_en-US.tar.xz"
 
 # Removes previous Tor installation within the "root" directory
